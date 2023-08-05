@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #f2836b;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f5b5a7;
+  }
+  .text-cen {
+    text-align: center;
+    margin-top: 90px;
+    font-weight: bold;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+  }
+  .navv {
+    opacity: 0.7;
+    background-color: #e4e2e2;
+  }
+  .secone-row {
+    display: flex;
+    align-items: center;
+  }
+  .sec-1 {
+    margin-top: 50px;
+  }
+  .input-1 {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: #f3f3f3;
+    border: 1px solid #dadada;
+  }
+  .span-sec1 {
+    font-weight: bold;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .btn-sec1 {
+    background-color: #f2836b;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .menu-icon {
+    display: none;
+  }
+  @media (max-width: 993px) {
+    input,
+    .span-sec1 {
+      display: none;
+    }
+    .menu-icon {
+        display: block;
+      }
+}
+  
+ /* start qutation */
+ .quation h2{
+     font-weight: bold;
+         color: #354128;
+ }
+.quation{
+    background-color: #eefcfa;
+    padding: 5px 5px;
+    margin-top: 5px;
+}
+.quu{
+    margin-top: 35px;
+}
+.quation h6{
+    text-align: center;
+    opacity: 0.7;
+}
+.quation h5{
+    color: #354128;
+    font-weight: bold;
+}
+ /* end qutation */
+
+
+
+  /* start footer */
+footer {
+    background-color: #e0f2ef;
+    padding: 50px 5px 5px 5px;
+    line-height: 2;
+  }
+  footer .col-lg-3 {
+    text-align: center;
+  }
+  footer h3 {
+    color: #354128;
+  }
+  footer .col-lg-4,
+  .col-lg-5
+  {
+  text-align: center;
+  }
+  footer a{
+      color: black;
+  }
+  footer .col-lg-4 img {
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+  }
+  footer h4{
+    font-size: 18px;
+}
+  /* end footer */
+  

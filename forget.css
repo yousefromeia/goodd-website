@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #f2836b;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f5b5a7;
+  }
+  .text-cen {
+    text-align: center;
+    margin-top: 90px;
+    font-weight: bold;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+    background-color: #eefcfa;
+    text-align: center;
+  }
+  .login{
+}
+.login .container{
+    margin-top: 165px !important;
+    margin: auto;
+      text-align: center;
+  }
+  .login .container p , h4 {
+      font-weight: bold;
+  }
+  .login .container p{
+      opacity: 0.7;
+  }
+  .login input{
+    height: 47px;
+    margin-top: 20px;
+      padding: 10px 10px;
+      background-color: #e0f2ef;
+      width: 60%;
+      border: 0;
+      outline: 0;
+}
+.login button{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    transition: 0.65s;
+    box-shadow:0 5px 10px #f2836b ;
+    cursor: pointer;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: white;
+    background-color: #f2836b;
+    -webkit-transition: 0.65s;
+    -moz-transition: 0.65s;
+    -ms-transition: 0.65s;
+    -o-transition: 0.65s;
+}
+.login button:hover{
+    box-shadow: none;
+    background-color: #354128;
+}
